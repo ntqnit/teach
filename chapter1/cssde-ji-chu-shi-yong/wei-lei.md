@@ -73,22 +73,42 @@ p:first-line {
 下面的属性可应用于 "first-line" 伪元素：
 
 > font properties
+>
+> color properties
+>
+> background properties
+>
+> word-spacing
+>
+> letter-spacing
+>
+> text-decoration
+>
+> vertical-align
+>
+> text-transform
+>
+> line-height
+>
+> clear
 
->color properties
+### 4.:before伪类
 
->background properties
+":before" 伪元素可以在元素的内容前面插入新内容。
 
->word-spacing
+下面的例子在每个&lt;h1&gt;元素前面插入一幅图片：
 
->letter-spacing
+```html
+<style>
+h1:before {content:url(smiley.gif);}
+</style>
+<body>
+<h1>This is a heading</h1>
+<p>The :before pseudo-element inserts content before an element.</p>
+<h1>This is a heading</h1>
+<p><b>注意:</b>仅当 !DOCTYPE 已经声明 IE8 支持这个内容属性</p>
+</body>
+```
 
->text-decoration
 
->vertical-align
-
->text-transform
-
->line-height
-
->clear
 
