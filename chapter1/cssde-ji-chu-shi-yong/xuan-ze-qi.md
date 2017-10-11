@@ -47,6 +47,10 @@ parent>child{width: 200px; height: 35px;}
 
 ### 6.群组选择器
 
+群组选择器使用逗号对选择符进行分隔。
+
+> 我们可以将逗号读成“和”。
+
 ```css
 h1,p,myClass,#main{
     font-size:20px;
