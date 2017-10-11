@@ -40,19 +40,11 @@ HTML &lt;div&gt;元素是块级元素，它可用于组合其他HTML元素的容
 
 ![](/assets/pic/08-1-3-3.png)
 
-### **1. &lt;span&gt;元素**
+### 2**. &lt;span&gt;元素**
 
 HTML &lt;span&gt;元素是内联元素，可用作文本的容器
 
 &lt;span&gt;元素也没有特定的含义。
 
 当与 CSS 一同使用时，&lt;span&gt;元素可用于为部分文本设置样式属性。
-
-
-
-
-
-
-
-
 
