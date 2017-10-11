@@ -22,8 +22,29 @@ a:active {color:#0000FF;}  /* 鼠标点击时 */
 </body>
 ```
 
-> 注意：在CSS定义中，a:hover必须被置于a:link和a:visited之后，a:active必须被置于   
+> 注意：在CSS定义中，a:hover必须被置于a:link和a:visited之后，a:active必须被置于  
 > a:hover之后，才是有效的。伪类的名称不区分大小写。
 
+### 2.first-child伪类
 
+ :first-child CSS 伪类代表了一组兄弟元素中的第一个元素。被匹配的元素需要具有一个父级元素。
+
+```css
+element:first-child { style properties }
+```
+上面的CSS作用于下面的HTML:
+```css
+span:first-child {
+    background-color: lime;
+}
+```
+
+```html
+<div>
+  <span>This span is limed!</span>
+  <span>This span is not. :(</span>
+</div>
+```
+
+![](/assets/pic/first-child.png)
 
