@@ -17,5 +17,5 @@ HTML文档中使用&lt;link&gt;元素引入外部样式文件，引入外部样�
 </style>
 ```
 
-
+导入外部样式表单需要在&lt;style&gt;元素中执行@import进行导入。
 
