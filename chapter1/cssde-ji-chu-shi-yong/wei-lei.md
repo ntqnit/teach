@@ -68,5 +68,27 @@ p:first-line {
 </body>
 ```
 
+注意："first-line" 伪元素只能用于块级元素。
 
+下面的属性可应用于 "first-line" 伪元素：
+
+> font properties
+
+>color properties
+
+>background properties
+
+>word-spacing
+
+>letter-spacing
+
+>text-decoration
+
+>vertical-align
+
+>text-transform
+
+>line-height
+
+>clear
 
