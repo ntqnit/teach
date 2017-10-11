@@ -1,3 +1,9 @@
-# First Chapter
+# 07\_CSS基础 DAY01
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+## 课程目标
+
+1. 掌握基本CSS语法，能够使用CSS对网页进行设计布局
+2. 熟练运用DIV+CSS布局网页。
+
+
+
