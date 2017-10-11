@@ -40,7 +40,7 @@ HTML文档中使用&lt;link&gt;元素引入外部样式文件，引入外部样�
 在HTML元素中使用style属性定义内联样式。
 
 ```html
-style="property1:value1;property2:value2;"
+<div style="property1:value1;property2:value2;"/>
 ```
 
 
