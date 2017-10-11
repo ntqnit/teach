@@ -8,7 +8,14 @@
 
 HTML文档中使用&lt;link&gt;元素引入外部样式文件，引入外部样式文件应在&lt;head&gt;元素中增加&lt;link&gt;子元素。&lt;link&gt;元素的href属性值是外部CSS文件的地址，可以使本地的CSS文件，也可以引入远程服务器上的CSS资源。
 
-## 2.导入外部样式单
+### 2.导入外部样式单
+
+```html
+<style type="text/css">
+    @import "../outer.css";
+    @import url('outer.css');
+</style>
+```
 
 
 
