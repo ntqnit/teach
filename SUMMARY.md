@@ -5,7 +5,7 @@
   * [CSS的基础使用](chapter1/cssde-ji-chu-shi-yong.md)
     * [CSS简介](chapter1/cssde-ji-chu-shi-yong/cssjian-jie.md)
     * [DIV和SPAN标签介绍](chapter1/divhe-span-biao-qian-jie-shao.md)
-    * CSS样式规则
+    * [CSS样式规则](chapter1/cssde-ji-chu-shi-yong/cssyang-shi-gui-ze.md)
     * [CSS加载的方式](chapter1/cssde-ji-chu-shi-yong/cssjia-zai-de-fang-shi.md)
     * [选择器](chapter1/cssde-ji-chu-shi-yong/xuan-ze-qi.md)
     * [伪类](chapter1/cssde-ji-chu-shi-yong/wei-lei.md)
@@ -29,8 +29,4 @@
     * [背景的渐变](bei-jing-de-jian-bian.md)
     * [图像的边框](tu-xiang-de-bian-kuang.md)
     * [阴影](yin-ying.md)
-
-
-
-
 
