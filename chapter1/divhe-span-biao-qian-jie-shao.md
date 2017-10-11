@@ -26,7 +26,7 @@
 
 ![](/assets/pic/08-1-3-1.png)![](/assets/pic/08-1-3-2.png)
 
-### **&lt;div&gt;元素**
+### 1.**&lt;div&gt;元素**
 
 HTML &lt;div&gt;元素是块级元素，它可用于组合其他HTML元素的容器。
 
