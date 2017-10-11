@@ -22,9 +22,10 @@ a:active {color:#0000FF;}  /* 鼠标点击时 */
 </body>
 ```
 
-注意：在CSS定义中，a:hover必须被置于a:link和a:visited之后，a:active必须被置于a:hover之后，才是有效的。
+>注意：在CSS定义中，a:hover必须被置于a:link和a:visited之后，a:active必须被置于 
+>a:hover之后，才是有效的。伪类的名称不区分大小写。
 
-> 伪类的名称不区分大小写。
+
 
 
 
