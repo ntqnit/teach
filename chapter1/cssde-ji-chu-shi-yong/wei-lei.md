@@ -27,12 +27,14 @@ a:active {color:#0000FF;}  /* 鼠标点击时 */
 
 ### 2.first-child伪类
 
- :first-child CSS 伪类代表了一组兄弟元素中的第一个元素。被匹配的元素需要具有一个父级元素。
+:first-child CSS 伪类代表了一组兄弟元素中的第一个元素。被匹配的元素需要具有一个父级元素。
 
 ```css
 element:first-child { style properties }
 ```
+
 上面的CSS作用于下面的HTML:
+
 ```css
 span:first-child {
     background-color: lime;
@@ -47,4 +49,24 @@ span:first-child {
 ```
 
 ![](/assets/pic/first-child.png)
+
+### 3.first-line伪类
+
+"first-line" 伪元素用于向文本的首行设置特殊样式。
+
+在下面的例子中，浏览器会根据 "first-line" 伪元素中的样式对p元素的第一行文本进行格式化：
+
+```html
+<style>
+p:first-line {
+    color:#ff0000;
+    font-variant:small-caps;
+    }
+</style>
+<body>
+<p>你可以使用 "first-line" 伪元素向文本的首行设置特殊样式。</p>
+</body>
+```
+
+
 
