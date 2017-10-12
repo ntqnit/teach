@@ -32,7 +32,7 @@ h2 {color:rgb(255,0,0);}
             text-align: justify;
         }
     </style>
-    
+
     <body>
         <p>Be careful to perform the actions in the correct sequence.</p>    
     </body>
@@ -42,15 +42,17 @@ h2 {color:rgb(255,0,0);}
 
 text-decoration属性一般用于删除链接的下划线。
 
-
-
-
-
-
-
-
-
-
+```html
+<style>
+	a {
+	text-decoration:none;
+	}
+</style>
+	
+<body>
+	<a href="#">百度</a>
+</body>
+```
 
 
 
