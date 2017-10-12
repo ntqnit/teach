@@ -53,7 +53,27 @@ div
 }
 ```
 
-![](/assets/pic/bg-size.png)
+### ![](/assets/pic/bg-size.png)
+
+### 7.背景的简写属性
+
+为了简化这些属性的代码，我们可以将这些属性合并在同一个属性中.
+
+背景颜色的简写属性为 "background":
+
+当使用简写属性时，属性值的顺序为：
+
+background-color
+
+background-image
+
+background-repeat
+
+background-attachment
+
+background-position
+
+以上属性无需全部使用，你可以按照页面的实际需要使用.
 
 
 
