@@ -24,9 +24,17 @@ body {background-color:#b0c4de;}
 
 background-repeat属性控制背景图像的平铺重复效果。
 
+![](/assets/pic/bg-repeat.png)
+
+### 4.背景图片固定
+
+在默认情况下，组件里的背景图片会随着滚动条的滚动而自动滚动，我们要把backgroun-attachment的属性设为fixed,那么背景图片就会被固定在该组件中，不会随滚动条的滚动而移动。
+
+```css
+body{background-attachment: fixed;}
+```
 
 
-### 
 
 
 
