@@ -27,51 +27,20 @@ h2 {color:rgb(255,0,0);}
 ![](/assets/pic/text-align.png)
 
 ```html
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>CSS</title>
-		<style>
-			p {
-				text-align: justify;
-			}
-		</style>
-	</head>
-	<body>
-		<p>Be careful to perform the actions in the correct sequence.</p>	
-	</body>
-</html>
+    <style>
+        p {
+            text-align: justify;
+        }
+    </style>
+    
+    <body>
+        <p>Be careful to perform the actions in the correct sequence.</p>    
+    </body>
 ```
 
 ### 3.文本修饰
 
 text-decoration属性一般用于删除链接的下划线。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
