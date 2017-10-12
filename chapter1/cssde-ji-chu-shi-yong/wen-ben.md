@@ -86,11 +86,13 @@ text-indent属性控制**首行文本**的缩进。
 
 属性值可以是固定值（包括负数），也可是百分比。
 
+> 注意em单位一般代表网页中一个字符的大小。
+
 ```html
 <style>
-       p {
-	text-indent:2em;
-	}
+    p {
+    text-indent:2em;
+    }
 </style>
 
 <p>
