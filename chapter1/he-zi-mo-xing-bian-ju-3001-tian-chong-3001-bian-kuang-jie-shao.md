@@ -39,11 +39,21 @@ h3 {
 
 
 
+下面的规则通过给元素四周设置红色边框，标记出了类名为  `remark` 的段落元素。
 
+文本周围的内边距将边框与文字拉开一点距离。
 
+左外边距使得段落相对于其余文本产生缩进：
 
-
-
+```css
+p.remark {
+  border: 2px solid red;
+  padding: 4px;
+  margin-left: 24px;
+  }
+```
+结果如下：
+![](/assets/pic/border-margin.png)
 
 
 
