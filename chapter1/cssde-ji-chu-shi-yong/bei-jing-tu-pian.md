@@ -40,5 +40,32 @@ body{background-attachment: fixed;}
 
 ![](/assets/pic/bg-position.png)
 
+6.背景图片大小
+
+background-size属性指定背景图片大小。
+
+```css
+div
+{
+    background:url(img_flwr.gif);
+    background-size:80px 60px;
+    background-repeat:no-repeat;
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
