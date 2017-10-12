@@ -111,14 +111,16 @@ text-indent属性控制**首行文本**的缩进。
 
 ### 7.行间距
 
+line-height属性控制行间距（简称行高）。
+
 ```html
 <style>
-	p.small {
-		line-height:10px;
-		}
-	p.big{
-		line-height:30px;
-		}
+    p.small {
+        line-height:10px;
+        }
+    p.big{
+        line-height:30px;
+        }
 </style>
 
 <p>
