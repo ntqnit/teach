@@ -107,7 +107,7 @@ text-indent属性控制**首行文本**的缩进。
 
 * word-spacing属性控制字间距。
 
-> todo。。
+> todo。。未完成
 
 ### 7.行间距
 
@@ -133,6 +133,14 @@ In object-oriented terminology, a class is a term that describes a group or coll
 In object-oriented terminology, a class is a term that describes a group or collection of objects with common properties. 
 </p>
 ```
+
+### 8.元素的垂直对齐方式
+
+vertical-align属性控制元素垂直对齐方式。
+
+**vertical-align被用于垂直对齐inline元素，也就是display值为inline和inline-block的元素。**
+
+> todo 未完成
 
 
 
