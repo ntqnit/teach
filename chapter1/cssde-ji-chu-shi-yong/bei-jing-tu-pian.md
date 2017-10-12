@@ -34,7 +34,11 @@ background-repeat属性控制背景图像的平铺重复效果。
 body{background-attachment: fixed;}
 ```
 
+### 5.背景图片的定位
 
+可以利用 background-position 属性改变图像在背景中的位置。
+
+![](/assets/pic/bg-position.png)
 
 
 
