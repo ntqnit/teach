@@ -40,7 +40,7 @@ body{background-attachment: fixed;}
 
 ![](/assets/pic/bg-position.png)
 
-6.背景图片大小
+### 6.背景图片大小
 
 background-size属性指定背景图片大小。
 
@@ -53,13 +53,7 @@ div
 }
 ```
 
-
-
-
-
-
-
-
+![](/assets/pic/bg-size.png)
 
 
 
