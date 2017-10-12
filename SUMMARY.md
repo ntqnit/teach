@@ -16,7 +16,6 @@
   * [DIV+CSS布局](chapter1/div+cssbu-ju.md)
     * [盒子模型介绍](chapter1/he-zi-mo-xing-jie-shao.md)
     * [盒子模型内外边距和边框介绍](chapter1/he-zi-mo-xing-bian-ju-3001-tian-chong-3001-bian-kuang-jie-shao.md)
-    * [盒子模型属性和默认值编写](chapter1/he-zi-mo-xing-shu-xing-he-mo-ren-zhi-bian-xie.md)
     * [display属性和实例](chapter1/displayshu-xing-he-shi-li.md)
     * [浮动和清除浮动](chapter1/fu-dong-he-qing-chu-fu-dong.md)
     * [用CSS position属性来定位](chapter1/yong-cssposition-shu-xing-lai-ding-wei.md)
