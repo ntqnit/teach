@@ -111,7 +111,26 @@ text-indent属性控制**首行文本**的缩进。
 
 ### 7.行间距
 
+```html
+<style>
+	p.small {
+		line-height:10px;
+		}
+	p.big{
+		line-height:30px;
+		}
+</style>
 
+<p>
+In object-oriented terminology, a class is a term that describes a group or collection of objects with common properties.
+</p>
+<p class="small">
+In object-oriented terminology, a class is a term that describes a group or collection of objects with common properties.
+</p>
+<p class="big">
+In object-oriented terminology, a class is a term that describes a group or collection of objects with common properties. 
+</p>
+```
 
 
 
