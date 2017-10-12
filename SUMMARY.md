@@ -13,8 +13,7 @@
     * [背景图片](chapter1/cssde-ji-chu-shi-yong/bei-jing-tu-pian.md)
     * [文本](chapter1/cssde-ji-chu-shi-yong/wen-ben.md)
     * [CSS列表](chapter1/cssde-ji-chu-shi-yong/csslie-biao.md)
-  * DIV+CSS布局
-    * [DIV和SPAN的区别](chapter1/divhe-span-de-qu-bie.md)
+  * [DIV+CSS布局](chapter1/div+cssbu-ju.md)
     * [盒子模型介绍](chapter1/he-zi-mo-xing-jie-shao.md)
     * [盒子模型边距、填充、边框介绍](chapter1/he-zi-mo-xing-bian-ju-3001-tian-chong-3001-bian-kuang-jie-shao.md)
     * [盒子模型属性和默认值编写](chapter1/he-zi-mo-xing-shu-xing-he-mo-ren-zhi-bian-xie.md)
