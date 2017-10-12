@@ -62,23 +62,31 @@ text-decoration属性一般用于删除链接的下划线。
 
 ```html
 <style>
-	.uppercase {
-		text-transform:uppercase;
-		}
-	.lowercase {
-		text-transform:lowercase;
-		}
+    .uppercase {
+        text-transform:uppercase;
+        }
+    .lowercase {
+        text-transform:lowercase;
+        }
             /* 首字母大写 */
-	.capitalize {
-		text-transform:capitalize;
-		}
+    .capitalize {
+        text-transform:capitalize;
+        }
 </style>
 <body>
-	<p class="uppercase">Hello,World!</p>
-	<p class="lowercase">Hello,World!</p>
-	<p class="capitalize">hello,world!</p>
+    <p class="uppercase">Hello,World!</p>
+    <p class="lowercase">Hello,World!</p>
+    <p class="capitalize">hello,world!</p>
 </body>
 ```
+
+### 5.文本缩进
+
+text-indent属性控制**首行文本**的缩进。
+
+属性值可以是固定值（包括负数），也可是百分比。
+
+
 
 
 
