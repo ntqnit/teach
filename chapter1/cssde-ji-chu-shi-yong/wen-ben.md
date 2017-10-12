@@ -44,13 +44,39 @@ text-decoration属性一般用于删除链接的下划线。
 
 ```html
 <style>
-	a {
-	text-decoration:none;
-	}
+    a {
+    text-decoration:none;
+    }
 </style>
-	
+
 <body>
-	<a href="#">百度</a>
+    <a href="#">百度</a>
+</body>
+```
+
+### 4.文本转换
+
+文本转换属性是用来指定在一个文本中的大写和小写字母。
+
+可用于所有字句变成大写或小写字母，或每个单词的首字母大写。
+
+```html
+<style>
+	.uppercase {
+		text-transform:uppercase;
+		}
+	.lowercase {
+		text-transform:lowercase;
+		}
+            /* 首字母大写 */
+	.capitalize {
+		text-transform:capitalize;
+		}
+</style>
+<body>
+	<p class="uppercase">Hello,World!</p>
+	<p class="lowercase">Hello,World!</p>
+	<p class="capitalize">hello,world!</p>
 </body>
 ```
 
