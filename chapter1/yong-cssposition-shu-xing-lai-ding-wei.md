@@ -92,3 +92,31 @@ HTML元素的默认值，即没有定位，元素出现在正常的流中。
 * 如果没有父元素，则相对于body定位；如果有父元素，但父元素没有定位，那么还是相对于body定位；如果父元素有定位，那么相对于父元素来定位。
 
 
+```html
+    *{
+            margin: 0;
+            padding: 0;
+        }
+        .c1{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            position: absolute;/*绝对定位，不占位置，无父级定位则相对于body来定位*/
+            left:20px;
+            top:20px;
+        }
+        .c2{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+        .c3{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+
+```
+
+
+
