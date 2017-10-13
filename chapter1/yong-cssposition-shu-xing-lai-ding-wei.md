@@ -129,50 +129,51 @@ HTML元素的默认值，即没有定位，元素出现在正常的流中。
 ```
 
 ### 5.定位元素的重叠
+
 * z-index属性控制定位元素的重叠顺序，属性值是z轴上的值。
 * Z-index只能在绝对定位元素上奏效（position:absolute）。  
-* Z-index的值是设置一个定位元素沿Z轴的位置，其值越大，离用户越近，所以若两个定位元素，Z-index值越大的将会覆盖值越小的定位元素。
-默认值是0，可以是正负数。
-下面首先不设置z-index。
-```css
-     .c1{
-        width: 100px;
-        height: 100px;
-        background-color: black;
-        position: absolute;
-        left:20px;
-        top:20px;
+* Z-index的值是设置一个定位元素沿Z轴的位置，其值越大，离用户越近，所以若两个定位元素，Z-index值越大的将会覆盖值越小的定位元素。  
+  默认值是0，可以是正负数。  
+  下面首先不设置z-index。  
+  ```css  
+     .c1{  
+        width: 100px;  
+        height: 100px;  
+        background-color: black;  
+        position: absolute;  
+        left:20px;  
+        top:20px;  
     }
 
-    .c2{
-        width: 50px;
-        height: 50px;
-        background-color:blue;
-        position: absolute;
+  .c2{  
+        width: 50px;  
+        height: 50px;  
+        background-color:blue;  
+        position: absolute;  
     }
-    
 ```
-效果是：蓝色定位元素在黑色定位元素上面
-加Z-index，使得黑色定位元素在蓝色上面。
+
+    效果是：蓝色定位元素在黑色定位元素上面
+    加Z-index，使得黑色定位元素在蓝色上面。
 
 ```css
-    c1{
-        width: 100px;
-        height: 100px;
-        background-color: black;
-        position: absolute;
-        left:20px;
-        top:20px;
-        z-index: 1;/*值只要比另一个定位元素的值大，就会在另一个定位元素之上*/
-    }
+        c1{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            position: absolute;
+            left:20px;
+            top:20px;
+            z-index: 1;/*值只要比另一个定位元素的值大，就会在另一个定位元素之上*/
+        }
 
-    .c2{
-        width: 50px;
-        height: 50px;
-        background-color:blue;
-        position: absolute;
-        z-index: 0;
-    }
+        .c2{
+            width: 50px;
+            height: 50px;
+            background-color:blue;
+            position: absolute;
+            z-index: 0;
+        }
 ```
 
 
