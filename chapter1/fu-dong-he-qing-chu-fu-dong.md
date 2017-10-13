@@ -20,5 +20,25 @@ div{float：left/right};
 
 ![](/assets/pic/float2.png)
 
- 从上图可以看出，对多个元素设置浮动，可以实现类似`inline-block`的效果；但是如果每个元素的高度不一致，**会出现“卡住”的情况**。
+从上图可以看出，对多个元素设置浮动，可以实现类似`inline-block`的效果；但是如果每个元素的高度不一致，**会出现“卡住”的情况**。
+
+然而，浮动也会导致一些我们不希望看见的事情发生。
+
+**浮动会导致父元素高度坍塌**
+
+ 浮动会脱离文档流，这个问题对整个页面布局有很大的影响。
+
+```html
+ css .box-wrapper { border: 5px solid red; } 
+.box-wrapper .box { float: left; width: 100px; height: 100px; margin: 20px; background-color: green; } 
+ <div class="box-wrapper"> 
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div> 
+  </div>
+
+
+```
+
+
 
