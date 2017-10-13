@@ -38,46 +38,45 @@
 我们现在有一个竖直导航栏，代码如下：
 
 ```css
-	<style type="text/css">
-		ul{
-			list-style-type:none; 
-			margin: 0;
-			padding: 0;
-			background-color:#333;
-		}
+    <style type="text/css">
+        ul{
+            list-style-type:none; 
+            margin: 0;
+            padding: 0;
+            background-color:#333;
+        }
 
-		li a{
-			text-decoration: none;
-			display: block;
-			padding:15px 18px;
-			color: white;
-		}
-		.clear{
-			clear: both;
-		}
-		li a:hover{
-			background-color: #ccc;
-		}
-	</style>
+        li a{
+            text-decoration: none;
+            display: block;
+            padding:15px 18px;
+            color: white;
+        }
+        .clear{
+            clear: both;
+        }
+        li a:hover{
+            background-color: #ccc;
+        }
+    </style>
 ```
 
 ```html
-		<ul>
-			<li>
-				<a class="def" href="">主页</a>
-				
-			</li>
-			<li>
-				<a href="">公司简介</a>
-			</li>
-			<li>
-				<a href="">合作案例</a>
-			</li>
-			<li>
-				<a href="">核心技术</a>
-			</li>
-			<div class="clear"></div>
-		</ul>
+        <ul>
+            <li>
+                <a class="def" href="">主页</a>
+            </li>
+            <li>
+                <a href="">公司简介</a>
+            </li>
+            <li>
+                <a href="">合作案例</a>
+            </li>
+            <li>
+                <a href="">核心技术</a>
+            </li>
+            <div class="clear"></div>
+        </ul>
 ```
 
 
