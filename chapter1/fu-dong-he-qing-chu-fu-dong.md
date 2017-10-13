@@ -66,6 +66,21 @@ div{float：left/right};
 
 ![](/assets/pic/float5.png)
 
+**清除浮动的最佳实践**
+
+```css
+// 现代浏览器clearfix方案，不支持IE6/7
+ .clearfix:after { display: table; content: " "; clear: both; }
+  // 全浏览器通用的clearfix方案 // 引入了zoom以支持IE6/7 
+  .clearfix:after { display: table; content: " "; clear: both; }
+   .clearfix{ *zoom: 1; } 
+   // 全浏览器通用的clearfix方案【推荐】
+    // 引入了zoom以支持IE6/7
+     // 同时加入:before以解决现代浏览器上边距折叠的问题
+      .clearfix:before, .clearfix:after { display: table; content: " "; } 
+      .clearfix:after { clear: both; } .clearfix{ *zoom: 1; }
+```
+
 **触发BFC**
 
 BFC全称是块状格式化上下文，它是按照块级盒子布局的。我们了解他的特征、触发方式、常见使用场景这些就够了。
