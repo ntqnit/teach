@@ -26,7 +26,7 @@ div{float：left/right};
 
 **浮动会导致父元素高度坍塌**
 
- 浮动会脱离文档流，这个问题对整个页面布局有很大的影响。
+浮动会脱离文档流，这个问题对整个页面布局有很大的影响。
 
 ```html
  css .box-wrapper { border: 5px solid red; } 
@@ -35,9 +35,7 @@ div{float：left/right};
     <div class="box"></div>
     <div class="box"></div>
     <div class="box"></div> 
-  </div>
-
-
+ </div>
 ```
 
 
