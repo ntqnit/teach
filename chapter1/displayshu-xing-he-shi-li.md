@@ -79,11 +79,53 @@
         </ul>
 ```
 
+![](/assets/pic/display-nav.png)
+
 我们使用无序列表制作了一个竖直导航栏，将a标签设置为`display:block`这样可以让a标签具备区块元素的特性，拥有独占一行的宽度，使得导航项目更容易被点击。
 
 此时，如果我们想将竖直导航栏变为水平导航栏，实际上只需要一行代码即可完成。
 
-在CSS代码中加入```li{display: inline-block;}```
+在CSS代码中加入`li{display: inline-block;}` 就可以将li元素变为行内区块显示。
+
+效果如下：
+
+![](/assets/pic/display-nav2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
