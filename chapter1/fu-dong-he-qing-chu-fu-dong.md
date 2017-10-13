@@ -29,7 +29,7 @@ div{float：left/right};
 浮动会脱离文档流，这个问题对整个页面布局有很大的影响。
 
 ```html
- css .box-wrapper { border: 5px solid red; } 
+.box-wrapper { border: 5px solid red; } 
 .box-wrapper .box { float: left; width: 100px; height: 100px; margin: 20px; background-color: green; } 
  <div class="box-wrapper"> 
     <div class="box"></div>
