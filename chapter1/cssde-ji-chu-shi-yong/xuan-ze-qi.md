@@ -44,6 +44,7 @@ h1 em {color:red;}
 
 ```css
 parent>child{width: 200px; height: 35px;}
+
 ```
 
 ### 6.群组选择器
