@@ -4,7 +4,7 @@
 
 CSS的颜色可以通过以下等方法指定：十六进制颜色、RGB颜色、RGBA颜色、颜色名等值指定。
 
-
+### 1. 十六进制颜色值
 
 所有主要浏览器都支持十六进制颜色值。
 
@@ -19,7 +19,7 @@ background-color:#ff0000;
 }
 ```
 
-
+### 2.RGB颜色值
 
 RGB颜色值在所有主要浏览器都支持。
 
@@ -36,7 +36,7 @@ background-color:rgb(255,0,0);
 }
 ```
 
-
+### 3.RGBA颜色值
 
 RGBA颜色值被IE9, Firefox3+, Chrome, Safari,和Opera10+支持。
 
@@ -50,8 +50,6 @@ p
 background-color:rgba(255,0,0,0.5);
 }
 ```
-
-
 
 
 

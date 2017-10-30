@@ -20,7 +20,7 @@
     * [浮动和清除浮动](chapter1/fu-dong-he-qing-chu-fu-dong.md)
     * [用CSS position属性来定位](chapter1/yong-cssposition-shu-xing-lai-ding-wei.md)
 * DAY02
-  * CSS3特性
+  * [CSS3特性](css3te-xing.md)
     * [CSS3图像的背景](css3tu-xiang-de-bei-jing.md)
     * [CSS颜色](cssyan-se.md)
     * [图像透明](tu-xiang-tou-ming.md)
