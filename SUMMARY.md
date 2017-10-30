@@ -13,13 +13,11 @@
     * [文本](chapter1/cssde-ji-chu-shi-yong/wen-ben.md)
     * [CSS列表](chapter1/cssde-ji-chu-shi-yong/csslie-biao.md)
 * DAY02
- * [DIV+CSS布局](chapter1/div+cssbu-ju.md)
-    * [盒子模型介绍](chapter1/he-zi-mo-xing-jie-shao.md)
+  * [DIV+CSS布局](chapter1/div+cssbu-ju.md)
     * [盒子模型内外边距和边框介绍](chapter1/he-zi-mo-xing-bian-ju-3001-tian-chong-3001-bian-kuang-jie-shao.md)
     * [display属性和实例](chapter1/displayshu-xing-he-shi-li.md)
     * [浮动和清除浮动](chapter1/fu-dong-he-qing-chu-fu-dong.md)
     * [用CSS position属性来定位](chapter1/yong-cssposition-shu-xing-lai-ding-wei.md)
-
 * DAY03
   * [CSS3特性](css3te-xing.md)
     * [CSS3图像的背景](css3tu-xiang-de-bei-jing.md)
@@ -28,6 +26,4 @@
     * [背景的渐变](bei-jing-de-jian-bian.md)
     * [图像的边框](tu-xiang-de-bian-kuang.md)
     * [阴影](yin-ying.md)
-
-
 
