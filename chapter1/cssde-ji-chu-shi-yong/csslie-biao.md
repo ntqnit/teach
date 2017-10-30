@@ -49,18 +49,18 @@ ol.d {list-style-type:lower-alpha;}
 
 ```css
 <style>
-	ul 
-	{
-		list-style-image:url('sqpurple.gif');
-	}
+    ul 
+    {
+        list-style-image:url('sqpurple.gif');
+    }
 </style>
 ```
 
 ```html
 <ul>
-<li>Coffee</li>
-<li>Tea</li>
-<li>Coca Cola</li>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
 </ul>
 ```
 
