@@ -38,6 +38,23 @@
 
 ![](/assets/pic/08-1-3-3.png)
 
+```html
+<title>三列布局</title>
+<style>
+    body{ margin:0; padding:0; font-size:30px; font-weight:bold}
+    div{ text-align:center; line-height:50px}
+    .left{ width:240px; height:600px; background:#ccc; position:absolute; left:0; top:0}
+    .main{ height:600px; margin:0 240px; background:#9CF}
+    .right{ height:600px; width:240px; position:absolute; top:0; right:0; background:#FCC;}
+</style>
+</head>
+<body>
+    <div class="left">left</div>
+    <div class="main">main</div>
+    <div class="right">right</div>
+</body>
+```
+
 ### 2**. &lt;span&gt;元素**
 
 * HTML &lt;span&gt;元素是内联元素，可用作文本的容器

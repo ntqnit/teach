@@ -15,7 +15,6 @@
 
 ```css
 .myclass{...}
-
 ```
 
 ### 3.ID选择器
@@ -44,7 +43,16 @@ h1 em {color:red;}
 
 ```css
 parent>child{width: 200px; height: 35px;}
+```
 
+```html
+<style>
+        
+</style>
+<div class="a">
+        <p>A smooth, mild <span class="b">blend of coffees</span> from Mexico, </p>
+        <div>A smooth, <p>mild</p>mild</div>
+</div>
 ```
 
 ### 6.群组选择器
