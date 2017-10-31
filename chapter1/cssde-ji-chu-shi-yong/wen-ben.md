@@ -122,12 +122,11 @@ line-height属性控制行间距（简称行高）。
 
 ```html
 <style>
-    p.small {
-        line-height:10px;
-        }
-    p.big{
-        line-height:30px;
-        }
+   p{		
+	word-spacing: 5px;
+	letter-spacing: 5px;
+	line-height: 20px;
+    }
 </style>
 
 <p>A smooth, mild blend of coffees from Mexico
