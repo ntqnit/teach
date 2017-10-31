@@ -122,10 +122,10 @@ line-height属性控制行间距（简称行高）。
 
 ```html
 <style>
-   p{		
-	word-spacing: 5px;
-	letter-spacing: 5px;
-	line-height: 20px;
+   p{        
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    line-height: 20px;
     }
 </style>
 
@@ -141,7 +141,7 @@ vertical-align属性控制元素垂直对齐方式。
 
 **vertical-align被用于垂直对齐inline元素，也就是display值为inline和inline-block的元素。**
 
-> todo 未完成
+> 也就是垂直居中是运用在行内元素的。
 
 
 
