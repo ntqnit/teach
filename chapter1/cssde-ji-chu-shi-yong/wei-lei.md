@@ -106,10 +106,8 @@ font-weight:bold;
 }
 </style>
 <body>
-<h1>This is a heading</h1>
-<p>The :before pseudo-element inserts content before an element.</p>
-<h1>This is a heading</h1>
-<p><b>注意:</b>仅当 !DOCTYPE 已经声明 IE8 支持这个内容属性</p>
+    <p>The :before pseudo-element inserts content before an element.</p>
+    <p><b>注意:</b>仅当 !DOCTYPE 已经声明 IE8 支持这个内容属性</p>
 </body>
 ```
 
