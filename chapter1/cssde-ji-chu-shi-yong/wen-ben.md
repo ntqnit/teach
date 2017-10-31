@@ -107,7 +107,14 @@ text-indent属性控制**首行文本**的缩进。
 
 * word-spacing属性控制字间距。
 
-> todo。。未完成
+我们在这里设置CODING COFFEE的产品页和首页。
+
+```css
+p{
+    word-spacing: 5px;
+    letter-spacing: 5px;
+ }
+```
 
 ### 7.行间距
 
