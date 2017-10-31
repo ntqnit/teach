@@ -74,19 +74,17 @@ div{float：left/right};
 .clearfix { *zoom:1; }
 ```
 
-1\) display:block 使生成的元素以块级元素显示,占满剩余空间。
+1\)` display:block `使生成的元素以块级元素显示,占满剩余空间。
 
-2\) height:0 避免生成内容破坏原有布局的高度。
+2\) `height:0` 避免生成内容破坏原有布局的高度。
 
-3\) visibility:hidden 使生成的内容不可见，并允许可能被生成内容盖住的内容可以进行点击和交互。
+3\) `visibility:hidden` 使生成的内容不可见，并允许可能被生成内容盖住的内容可以进行点击和交互。
 
-4）通过 content:"."生成内容作为最后一个元素，至于content里面是点还是其他都是可以的。
+4）通过` content:"."`生成内容作为最后一个元素，至于content里面是点还是其他都是可以的。
 
-5）zoom：1 触发IE hasLayout。
+5）`zoom：1 `触发IE hasLayout。
 
-通过分析发现，除了clear：both用来闭合浮动的，其他代码无非都是为了隐藏掉content生成的内容，这也就是其他版本的闭合浮动为什么会有font-size：0，line-height：0。
-
-
+通过分析发现，除了`clear：both`用来闭合浮动的，其他代码无非都是为了隐藏掉content生成的内容。
 
 **触发BFC**
 
@@ -117,8 +115,4 @@ BFC全称是块状格式化上下文，它是按照块级盒子布局的。我�
 其一，通过在浮动元素的末尾添加一个空元素，设置 clear：both属性。（after伪元素其实也是通过 content 在元素的后面生成了内容为一个点的块级元素）；
 
 其二，使父元素触发BFC。（通过设置父元素 overflow 或者display：table 属性来闭合浮动）
-
-
-
-
 
