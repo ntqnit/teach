@@ -61,11 +61,11 @@ p:first-line {
     }
 </style>
 <body>
-<p>你可以使用 "first-line" 伪元素向文本的首行设置特殊样式。</p>
+<p>A smooth, mild blend of coffees from Mexico, A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,A smooth, mild blend of coffees from Mexico,</p>
 </body>
 ```
 
-注意："first-line" 伪元素只能用于块级元素。
+> 注意："first-line" 伪元素只能用于块级元素。
 
 下面的属性可应用于 "first-line" 伪元素：
 
@@ -97,7 +97,13 @@ p:first-line {
 
 ```html
 <style>
-h1:before {content:url(smiley.gif);}
+p:before
+{ 
+content:"台词：-";
+background-color:yellow;
+color:red;
+font-weight:bold;
+}
 </style>
 <body>
 <h1>This is a heading</h1>
