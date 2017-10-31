@@ -130,15 +130,10 @@ line-height属性控制行间距（简称行高）。
         }
 </style>
 
-<p>
-In object-oriented terminology, a class is a term that describes a group or collection of objects with common properties.
-</p>
-<p class="small">
-In object-oriented terminology, a class is a term that describes a group or collection of objects with common properties.
-</p>
-<p class="big">
-In object-oriented terminology, a class is a term that describes a group or collection of objects with common properties. 
-</p>
+<p>A smooth, mild blend of coffees from Mexico
+A smooth, mild blend of coffees from MexicoA smooth,
+mild blend of coffees from MexicoA smooth, 
+mild blend of coffees from Mexico</p>
 ```
 
 ### 8.元素的垂直对齐方式
