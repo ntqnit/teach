@@ -17,7 +17,7 @@ background-image 属性描述了元素的背景图像。
 默认情况下，背景图像进行平铺重复显示，以覆盖整个元素实体。
 
 ```css
-body {background-color:#b0c4de;}
+background:url(img_flwr.gif);
 ```
 
 ### 3.背景平铺重复设置

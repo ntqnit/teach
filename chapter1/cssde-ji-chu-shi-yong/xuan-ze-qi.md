@@ -1,6 +1,7 @@
 ## 1.5 选择器
-> 装修队CSS已经进场了，但是我们要小心控制装修队，可不能让装修队在家里胡作非为。
-所以我们要使用选择器精准的选择网页中需要装修的地方。
+
+> 装修队CSS已经进场了，但是我们要小心控制装修队，可不能让装修队在家里胡作非为。  
+> 所以我们要使用选择器精准的选择网页中需要装修的地方。
 
 ### 1.通配符选择器
 
@@ -49,7 +50,7 @@ parent>child{width: 200px; height: 35px;}
 
 ```html
 <style>
-        
+
 </style>
 <div class="a">
         <p>A smooth, mild <span class="b">blend of coffees</span> from Mexico, </p>
