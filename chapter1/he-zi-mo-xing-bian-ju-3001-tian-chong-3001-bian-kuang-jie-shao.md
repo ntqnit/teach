@@ -13,7 +13,7 @@
 
 你也可以通过设置样式为 `none` 或 `hidden` 来明确地移除边框。
 
-如果一次只指定某一个方向的边框，就用属性：`border-top，border-right， border-bottom，border-left`。 
+如果一次只指定某一个方向的边框，就用属性：`border-top，border-right， border-bottom，border-left`。
 
 下面的规则设置了一个标题元素的背景色和顶部边框：
 
@@ -85,5 +85,5 @@ p.remark {
 
 * 少部分HTML元素盒子属性存在默认值，如：body,p,ul,li,form标签等，因此我们在需要的时候可以先初始化他们的属性为0。
 
-`todo..`
+
 
