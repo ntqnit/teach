@@ -141,6 +141,8 @@ vertical-align属性控制元素垂直对齐方式。
 
 **vertical-align被用于垂直对齐inline元素，也就是display值为inline和inline-block的元素。**
 
+![](/assets/vertical.png)
+
 > 也就是垂直居中是运用在行内元素的。
 
 
